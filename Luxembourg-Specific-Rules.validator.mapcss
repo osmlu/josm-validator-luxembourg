@@ -7,7 +7,7 @@ meta {
     link: "https://github.com/DavidMoraisFerreira/josm-validator-luxembourg";
     watch-modified: true;
     min-josm-version: "11424"; /* due to territory selectors */
-	baselanguage: "en";
+    baselanguage: "en";
 }
 
 meta[lang=de] {
