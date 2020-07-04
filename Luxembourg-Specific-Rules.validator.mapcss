@@ -53,8 +53,8 @@ meta[lang=fr] {
     throwError: tr("Invalid addr:postcode! Expected 4 digits");
 }
 
-*[/^addr:/][ref:caclr][ref:caclr!~/^(\d{1,6}|missing)$/][inside("LU")] {
-    throwError: tr("Invalid ref:caclr! Expected between 1 and 6 digits or \"missing\"");
+*[/^addr:/][ref:caclr][ref:caclr!~/^(\d{1,6}|missing|wrong)$/][inside("LU")] {
+    throwError: tr("Invalid ref:caclr! Expected between 1 and 6 digits or \"wrong\" or \"missing\"");
 }
 
 
