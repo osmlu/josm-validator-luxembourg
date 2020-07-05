@@ -1,8 +1,8 @@
 meta {
     title: "Luxembourg specific rules";
-    version: "0.4";
+    version: "0.5";
     description: "Rules, which are limited to Luxembourg only.";
-    author: "David Morais Ferreira (dmlu)";
+    author: "David Morais Ferreira (dmlu), Guillaume Rischard (Stereo)";
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgAgMAAAAgaeFmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEXtKTn///8Aod61Cg5KAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+EICgIGODPdAlQAAAE2SURBVHja7c8BDQAACAOgl7SkKc3hBw1IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ6YEiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIv2RLSEiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIlIfOXgBikX7OtctAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA4LTEwVDAyOjA2OjU1KzAwOjAw5j1ThgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wOC0xMFQwMjowNjo1NSswMDowMJdg6zoAAAAASUVORK5CYII=";
     link: "https://github.com/DavidMoraisFerreira/josm-validator-luxembourg";
     watch-modified: true;
