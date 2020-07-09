@@ -47,7 +47,7 @@ meta[lang=fr] {
 
 *[/^addr:/][!addr:postcode][inside("LU")] {
     throwWarning: tr("addr:postcode missing!");
-}*/
+}
 
 *[/^addr:/][addr:postcode][addr:postcode!~/\d{4}/][inside("LU")] {
     throwError: tr("Invalid addr:postcode! Expected 4 digits");
