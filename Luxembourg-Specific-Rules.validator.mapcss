@@ -60,20 +60,22 @@ meta[lang=fr] {
 
 /* Street Convention: https://wiki.openstreetmap.org/wiki/WikiProject_Luxembourg/Roads */
 
-way[ref=~/^A.*/][highway!~/motorway|motorway_link/][inside("LU")] {
+way[ref=~/^A.*/][highway!~"^(motorway|motorway_link)$"][inside("LU")] {
 	throwError: tr("\"Autoroutes\" (A) tagging doesn't follow convention");
 	suggestAlternative: "highway=motorway";
 	suggestAlternative: "highway=motorway_link";
 }
 
-way[ref=~/^N.*/][highway!=primary][inside("LU")] {
+way[ref=~/^N.*/][highway!~"^primary(_link)?$"][inside("LU")] {
 	throwError: tr("\"Routes nationales\" (N) tagging doesn't follow convention");
 	suggestAlternative: "highway=primary";
+	suggestAlternative: "highway=primary_link";
 	fixAdd: concat("highway=", "primary");
 }
 
-way[ref=~/^CR.*/][highway!=secondary][inside("LU")] {
+way[ref=~/^CR.*/][highway!~"^secondary(_link)?$"][inside("LU")] {
 	throwError: tr("\"Chemin repris\" (CR) tagging doesn't follow convention");
 	suggestAlternative: "highway=secondary";
+	suggestAlternative: "highway=secondary_link";
 	fixAdd: concat("highway=", "secondary");
 }
